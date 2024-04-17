@@ -1,0 +1,644 @@
+@font-face {
+  font-family: allianz;
+  src: url(Allianz\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: druk-bold;
+  src: url(Druk-Heavy-Trial.otf);
+}
+@font-face {
+  font-family: druk-medium;
+  src: url(DrukText-Medium-Trial.otf);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: allianz;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#outer-nav {
+  height: 7%;
+  width: 100%;
+  background-color: #e3dfdc;
+  padding: 0px 15px;
+  position: fixed;
+  z-index: 99;
+}
+
+#nav {
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  padding: 10px 0px;
+  font-family: allianz;
+  z-index: 99;
+  position: absolute;
+}
+#nav #nav1 {
+  height: 100%;
+  width: 14%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+#nav #nav1 img {
+  height: 110%;
+  /* background-color:  red; */
+  margin-left: 15px;
+}
+#nav #nav1 h1 {
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-left: 8px;
+  font-weight: 900;
+}
+#nav #nav1 h1 sup {
+  font-size: 4px;
+  letter-spacing: normal;
+  margin-left: 0%;
+  font-weight: normal;
+}
+#nav #nav2 {
+  height: 100%;
+  width: 36%;
+  /* background-color: rgb(9, 255, 0); */
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #111111;
+  padding-left: 15px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+#nav #nav3 {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(255, 94, 0); */
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding-left: 14%;
+  color: #111111;
+  font-weight: 100;
+}
+#nav #nav3 h5:nth-child(6) {
+  /* background-color: red; */
+  height: 100%;
+  width: 17%;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 6px 0px;
+}
+
+#outer-page1 {
+  height: 100%;
+  width: 100%;
+  background-color: #e1ded9;
+  padding: 0px 15px;
+}
+#page1 {
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page1 #upper-text {
+  text-transform: uppercase;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  position: absolute;
+  top: 65%;
+  left: 1%;
+  font-size: 13px;
+  font-family: druk-medium;
+}
+#page1 h1 {
+  text-transform: uppercase;
+  font-size: 210px;
+  font-family: druk-bold;
+  position: absolute;
+  top: 61.5%;
+  left: 1%;
+}
+#page1 video {
+  position: absolute;
+  top: 8%;
+  height: 90%;
+  width: 100%;
+  border: none;
+}
+#outer-page1-bottom {
+  background-color: #e1ded9;
+  height: 35%;
+  width: 100%;
+  padding: 0px 15px;
+}
+#page1-bottom {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page1-bottom #line1 {
+  background-color: black;
+  height: 1px;
+  width: 33%;
+  position: absolute;
+  left: 15px;
+}
+#page1-bottom #line2 {
+  background-color: black;
+  height: 1px;
+  width: 33%;
+  position: absolute;
+  right: 15px;
+}
+#page1-bottom #line3 {
+  background-color: black;
+  height: 0.5px;
+  width: 98%;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+#page1-bottom p {
+  position: absolute;
+  top: 27%;
+  left: 27%;
+  text-align: center;
+  font-size: 18px;
+}
+#page1-bottom button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  position: absolute;
+  top: 55%;
+  left: 43%;
+}
+
+#outer-page2 {
+  background-color: #e1ded9;
+  height: 85%;
+  width: 100%;
+  padding: 0px 15px;
+}
+#page2 {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page2 #line1 {
+  background-color: black;
+  height: 1px;
+  width: 32%;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+#page2 #line2 {
+  background-color: black;
+  height: 1px;
+  width: 64%;
+  position: absolute;
+  right: 15px;
+  bottom: 0%;
+}
+#page2 #line3 {
+  background-color: black;
+  height: 98%;
+  width: 1px;
+  position: absolute;
+  top: 15px;
+  left: 34%;
+}
+#page2 h1 {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  font-size: 80px;
+  font-family: druk-bold;
+  line-height: 150px;
+  font-weight: 200;
+  font-size: 154px;
+}
+#page2 video {
+  background-color: red;
+  height: 95%;
+  width: 38%;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  object-fit: cover;
+}
+#page2 p {
+  position: absolute;
+  top: 13px;
+  left: 35%;
+  font-size: 13px;
+}
+#page2 #arrow {
+  position: absolute;
+  top: 13px;
+  left: 57%;
+  word-spacing: -10px;
+}
+#outer-page2-bottom {
+  background-color: #e1ded9;
+  height: 30%;
+  width: 100%;
+  padding: 0px 15px;
+}
+#page2-bottom {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page2-bottom #line1 {
+  background-color: black;
+  height: 91%;
+  width: 1px;
+  position: absolute;
+  left: 34%;
+}
+#page2-bottom #line2 {
+  background-color: black;
+  height: 0.5px;
+  width: 64%;
+  position: absolute;
+  right: 15px;
+  top: 45%;
+}
+#page2-bottom #line3 {
+  background-color: black;
+  height: 1px;
+  width: 98%;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+#page2-bottom h1 {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  font-size: 40px;
+  font-family: allianz;
+}
+#page2-bottom button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+}
+#page2-bottom #scroller1 {
+  /* background-color: blue; */
+  height: 40%;
+  width: 64%;
+  position: absolute;
+  right: 15px;
+  top: 10%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#page2-bottom #scroller1 .container1 {
+  height: 100%;
+  width: 100%;
+  margin-right: 34px;
+  /* background-color: red; */
+}
+#page2-bottom #scroller1 .container1 .box {
+  height: 20px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 34px;
+}
+#page2-bottom #scroller1 .container1 .box img {
+  height: 100%;
+  width: 100%;
+}
+#page2-bottom #scroller2 {
+  /* background-color: rgba(0, 255, 55, 0.997); */
+  height: 40%;
+  width: 64%;
+  position: absolute;
+  right: 15px;
+  bottom: 10%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#page2-bottom #scroller2 .container2 {
+  height: 100%;
+  width: 100%;
+  margin-right: 34px;
+  display: inline-block;
+}
+#page2-bottom #scroller2 .container2 .box {
+  height: 20px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 34px;
+  /* background-color: aqua; */
+}
+#page2-bottom #scroller2 .container2 .box img {
+  height: 100%;
+  width: 100%;
+}
+#outer-page3 {
+  height: 85%;
+  width: 100%;
+  background-color: #e1ded9;
+  padding: 0px 15px;
+}
+#page3 {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page3 #line {
+  background-color: black;
+  height: 0.5px;
+  width: 98%;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+#page3 h1 {
+  font-size: 190px;
+  font-family: druk-bold;
+  line-height: 198px;
+  font-weight: 500;
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+#page3 #page3img {
+  position: absolute;
+  z-index: 1;
+  left: 45%;
+  rotate: 20deg;
+  height: 115%;
+  filter: drop-shadow(10px 10px 20px black);
+}
+#outer-page3-bottom {
+  height: 30%;
+  width: 100%;
+  background-color: #e1ded9;
+  padding: 0px 15px;
+}
+#page3-bottom {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page3-bottom #line1 {
+  background-color: black;
+  height: 84%;
+  width: 1px;
+  position: absolute;
+  left: 67%;
+  top: 16px;
+}
+#page3-bottom #line2 {
+  background-color: black;
+  height: 1px;
+  width: 98%;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+#page3-bottom h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+#page3-bottom p {
+  font-size: 18px;
+  position: absolute;
+  top: 18px;
+  left: 68%;
+}
+#page3-bottom button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 68%;
+}
+
+#outer-page4 {
+  height: 100%;
+  width: 100%;
+  background-color: #e1ded9;
+  padding: 0px 15px;
+}
+#page4 {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page4 #line1 {
+  background-color: black;
+  height: 95%;
+  width: 1px;
+  position: absolute;
+  left: 34%;
+  top: 16px;
+}
+#page4 #line2 {
+  background-color: black;
+  height: 1px;
+  width: 98%;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+#page4 h1 {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  font-family: druk-bold;
+  line-height: 150px;
+  font-weight: 200;
+  font-size: 154px;
+}
+#page4 p {
+  font-size: 18px;
+  position: absolute;
+  bottom: 21%;
+  left: 15px;
+}
+#page4 button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 11%;
+  left: 15px;
+}
+#page4 h6 {
+  font-size: 12px;
+  position: absolute;
+  top: 15px;
+  left: 35%;
+}
+#page4 #arrow {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  word-spacing: -10px;
+}
+#page4 img {
+  height: 80%;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 48%;
+}
+
+#outer-page5 {
+  height: 100%;
+  width: 100%;
+  background-color: #e1ded9;
+  padding: 0px 15px;
+}
+#page5 {
+  background-color: #e1ded9;
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  position: relative;
+}
+#page5 #line {
+  background-color: black;
+  height: 98%;
+  width: 1px;
+  position: absolute;
+  left: 67%;
+  top: 16px;
+}
+#page5 h1 {
+  position: absolute;
+  top: 10px;
+  left: 68%;
+  font-family: druk-bold;
+  line-height: 120px;
+  font-weight: 200;
+  font-size: 120px;
+}
+#page5 p {
+  position: absolute;
+  bottom: 50%;
+  left: 68%;
+  font-size: 18px;
+}
+#page5 button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 40%;
+  left: 68%;
+}
+#page5 .card {
+  /* background-color: red; */
+  height: 40%;
+  width: 27%;
+}
+#page5 #card1 {
+  position: absolute;
+  top: 6%;
+  left: 4%;
+}
+#page5 #card2 {
+  position: absolute;
+  top: 6%;
+  left: 36%;
+}
+#page5 #card3 {
+  position: absolute;
+  top: 53%;
+  left: 4%;
+}
+#page5 #card4 {
+  position: absolute;
+  top: 53%;
+  left: 36%;
+}
+#page5 .card .image {
+  /* background-color: blue; */
+  height: 80%;
+  width: 100%;
+  overflow: hidden;
+}
+#page5 .card .image img {
+  height: 100%;
+  width: 100%;
+  transition: all ease 1s;
+}
+#page5 .card .image:hover img {
+  scale: 1.2;
+}
+#page5 .card .text {
+  /* background-color: aqua; */
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  text-transform: uppercase;
+}
